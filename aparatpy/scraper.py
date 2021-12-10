@@ -28,6 +28,14 @@ class Scraper:
         return links
 
     def get_link(self) -> str:
+        """get link of video with self.quality
+
+        Raises:
+            QualityError: if quality not available
+
+        Returns:
+            str: link of video
+        """
         links = self.get_all_links()
         available_qualities = self.get_qualities(links)
         if self.quality not in available_qualities:
