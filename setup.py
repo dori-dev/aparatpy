@@ -1,3 +1,7 @@
+"""
+python3 setup.py sdist bdist_wheel
+python -m twine upload dist/* 
+"""
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -5,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="aparatpy",
-    version="1.1.0",
+    version="3.0.0",
     author="Mohammad Dori",
     author_email="mr.dori.dev@gmail.com",
     description="aparat.com downloader",
