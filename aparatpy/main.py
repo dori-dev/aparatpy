@@ -1,16 +1,21 @@
+"""main of aparatpy project
+"""
 import requests
 from scraper import Scraper
 from exceptions import EmptyVideo
 
 
-
-
 class Main:
+    """Main Class
+    """
+
     def __init__(self, url, quality):
         self.scraper = Scraper(url, quality)
         self.video_name = f"{url.split('/')[-1]}-{quality}.mp4"
 
     def download(self):
+        """download video function
+        """
         video_url = self.scraper.get_link()
         print("Downloading...")
         with open(self.video_name, 'wb') as video_file:
