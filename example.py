@@ -1,4 +1,4 @@
 from aparatpy import Main
 
-video = Main('video-url', 'video-quality')
+video = Main('https://www.aparat.com/v/u4AkE', '240')
 video.download()
