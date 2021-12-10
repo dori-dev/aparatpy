@@ -1,4 +1,4 @@
-# APARATPY
+# [APARATPY](https://pypi.org/project/aparatpy/)
 
 aparatpy is a video downloader library for [aparat.com](https://aparat.com)
 
