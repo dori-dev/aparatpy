@@ -33,5 +33,5 @@ class Main:
 
 
 if __name__ == "__main__":
-    main = Main("https://www.aparat.com/v/u4AkE", "144")
+    main = Main("https://www.aparat.com/v/u4AkE", "360")
     main.download()
