@@ -1,4 +1,4 @@
-"""Exceptions of project
+"""aparatpy exceptions
 """
 
 
