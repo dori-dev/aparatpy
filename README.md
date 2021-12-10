@@ -1,2 +1,7 @@
-# APARATPY
-download `aparat.com` videos with python.
+# aparatpy
+
+```
+from aparatpy import Main
+video = Main('url', 'quality')
+video.download()
+```
