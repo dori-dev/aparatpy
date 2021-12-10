@@ -1,7 +1,14 @@
-# aparatpy
+# APARATPY
+
+aparatpy is a video downloader library for aparat.com
 
 ```
+pip install aparatpy
+```
+
+```python
 from aparatpy import Main
-video = Main('url', 'quality')
+
+video = Main('video-url', 'video-quality')
 video.download()
 ```
