@@ -3,8 +3,10 @@
 
 
 class QualityError(Exception):
-    pass
+    """QualityError Exception
+    """
 
 
 class EmptyVideo(Exception):
-    pass
+    """EmptyVideo Exception
+    """
