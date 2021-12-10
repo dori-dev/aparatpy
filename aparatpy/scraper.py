@@ -4,7 +4,7 @@ from typing import List
 import re
 import requests
 from bs4 import BeautifulSoup
-from exceptions import QualityError
+from aparatpy.exceptions import QualityError
 
 
 class Scraper:

@@ -1,8 +1,8 @@
 """main of aparatpy project
 """
 import requests
-from scraper import Scraper
-from exceptions import EmptyVideo
+from aparatpy.scraper import Scraper
+from aparatpy.exceptions import EmptyVideo
 
 
 class Main:

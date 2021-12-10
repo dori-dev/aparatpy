@@ -1,3 +1,3 @@
 """aparatpy init
 """
-from main import Main
+from aparatpy.main import Main
