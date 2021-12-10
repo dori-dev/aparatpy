@@ -1,9 +1,8 @@
 import requests
 from scraper import Scraper
+from exceptions import EmptyVideo
 
 
-class EmptyVideo(Exception):
-    pass
 
 
 class Main:
