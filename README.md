@@ -1,2 +1,2 @@
-# aparatpy
-aparat download with python
+# APARATPY
+download `aparat.com` videos with python.
